@@ -1,0 +1,17 @@
+AM ~M "layer3_weight" <MATRIX> 500 500
+
+AV ~V "layer3_bias" <VECTOR> 500
+
+IL ~N "DNN1" 3 ~L "layer3" <BEGINLAYER> <LAYERKIND> "PERCEPTRON" 
+
+	<INPUTFEATURE> ~F "layer2_feamix" <WEIGHT> ~M "layer3_weight" 
+
+	<BIAS> ~V "layer3_bias" <ACTIVATION> "SIGMOID" <ENDLAYER>
+
+	CF ~L "layerout" ~F "layer3_feamix" <FEATURE> 1 500 
+
+	<SOURCE> ~L "layer3" <CONTEXTSHIFT> 1 0
+
+EL ~L "layer3"
+
+EL ~L "layerout"

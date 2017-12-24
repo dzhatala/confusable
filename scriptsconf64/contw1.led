@@ -1,0 +1,57 @@
+WB sp
+WB sil
+WB #N
+
+DC	ANY sil
+DC C_a a
+DC C_d d
+CH a-rt C_a rt ANY
+CH d-uw+a C_d uw C_a
+
+
+
+CH center_u * u * 
+CH center_u * u ANY 
+CH center_d * d * 
+CH center_a * a * 
+CH center_a * a ANY 
+CH center_i * i * 
+CH center_i * i ANY 
+CH center_e * e * 
+CH center_e * e ANY 
+CH center_o * o * 
+CH center_o * o ANY 
+CH center_t * t * 
+CH center_g * g * 
+CH center_b * b * 
+CH center_j * j * 
+CH center_p * p * 
+CH center_k * k * 
+CH center_c * c * 
+
+CH center_m * m * 
+CH center_m * m ANY 
+CH center_n * n * 
+CH center_n * n ANY 
+CH center_ny * ny * 
+CH center_ny * ny ANY 
+CH center_l * l * 
+CH center_l * l ANY 
+CH center_r * r * 
+CH center_r * r ANY 
+
+CH center_ng * ng * 
+CH center_ng * ng ANY 
+
+CH center_z * z * 
+CH center_z * z ANY 
+CH center_y * y * 
+CH center_y * y ANY 
+CH center_s * s * 
+CH center_s * s ANY 
+CH center_w * w * 
+
+CH center_h * h * 
+CH center_h * h ANY 
+CH center_f * f * 
+CH center_f * f ANY 
