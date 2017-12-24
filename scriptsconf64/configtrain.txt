@@ -1,0 +1,4 @@
+# Coding parameters
+SOURCEFORMAT = HTK
+NUMCEPS=8
+NUMCHANS=10

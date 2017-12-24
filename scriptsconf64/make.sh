@@ -1,0 +1,1 @@
+echo "#define compilation_time \"`date`\"" > cp_time.h; make
