@@ -1,0 +1,21 @@
+VERSION=1.0
+N=8    L=11   
+I=0    W=!NULL               
+I=1    W=!NULL               
+I=2    W=b                   
+I=3    W=e                   
+I=4    W=sil                 
+I=5    W=sp                  
+I=6    W=!NULL               
+I=7    W=!NULL               
+J=0     S=0    E=1    l=0.00     
+J=1     S=6    E=1    l=0.00     
+J=2     S=1    E=2    l=-1.39    
+J=3     S=1    E=3    l=-1.39    
+J=4     S=1    E=4    l=-1.39    
+J=5     S=1    E=5    l=-1.39    
+J=6     S=2    E=6    l=0.00     
+J=7     S=3    E=6    l=0.00     
+J=8     S=4    E=6    l=0.00     
+J=9     S=5    E=6    l=0.00     
+J=10    S=6    E=7    l=0.00     
